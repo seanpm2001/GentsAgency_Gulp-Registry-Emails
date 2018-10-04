@@ -1,5 +1,5 @@
 const gulp = require('gulp');
-
+const path = require('path');
 const twing = require('gulp-twing');
 
 module.exports = (config) => {
@@ -7,8 +7,10 @@ module.exports = (config) => {
 
 	const data = {}; // @todo
 	const options = {
-		templatePaths: ['.', src],
+		templatePaths: ['.', path.dirname(src)],
 	};
+
+	console.log(options, src);
 
 	const twig = () => gulp
 		.src(src)

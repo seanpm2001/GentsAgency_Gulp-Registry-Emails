@@ -1,6 +1,6 @@
 {
   "name": "@gentsagency/gulp-registry-emails",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A modern workflow for e-mail development",
   "main": "index.js",
   "scripts": {
@@ -41,6 +41,6 @@
     "postcss-nested": "^4.1.0",
     "postcss-preset-env": "^6.0.10",
     "twig": "^1.12.0",
-    "twing": "^0.10.0"
+    "twing": "^2.0.0"
   }
 }
